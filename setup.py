@@ -26,7 +26,7 @@ setup(
         package for package in find_packages() if package.startswith("mimicgen")
     ],
     install_requires=[
-        "numpy>=1.13.3,<2",
+        "numpy>=1.13.3",
         "h5py",
         "tqdm",
         "imageio",
